@@ -1,18 +1,32 @@
-#Created by webjeda - http://webjeda.com
+# Site settings
+title: kanglc-Blog
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-title: Bheema #Keep it short
-email: your@email.com
+# User setting
+owner: kanglc
+email: klcmcu@163.com
+facebook_username:
+twitter_username:
+github_username:
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+telephone:
+copyright:
 
+# API settings
+google_api_key:
 
-baseurl: /bheema
+# Build settings
+gems: [jekyll-paginate]
 
-sass:
- style: compressed
- 
- 
-# Tracker
-analytics: UA-83979019-1
- 
-### exclude the instructions / write-up in the README.md
-exclude:
-- README.md
+markdown: kramdown
+# toc_levels: 1..2
+
