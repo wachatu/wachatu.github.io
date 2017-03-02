@@ -1,25 +1,26 @@
 ---
-layout: default
 ---
-
-<article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-  {{ content }}
-</article>
-
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h3>Related posts</h3>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</aside>
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="container partition">
+{% include nav-page.html %}
+{% if page.img %}
+<div class="page-image" style="background-image: url({{site.baseurl}}/img/{{page.img}})"></div>
+{% else %}
 {% endif %}
+       <div class="row" style="margin-top: 2em">
+        <div class="container page-container">
+       
+           <h1 class="page-title">{{page.title}}</h1>
+         
+          {{ content }}
+          
+          </div>
+    </div>
+{% include footer.html %}
+</div>
+
+</body>
+</html>

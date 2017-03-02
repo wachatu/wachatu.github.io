@@ -1,32 +1,18 @@
-# Permalinks
-permalink:           pretty
+#Created by webjeda - http://webjeda.com
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title: Bheema #Keep it short
+email: your@email.com
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+
+baseurl: /bheema
+
 sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
-
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+ style: compressed
+ 
+ 
+# Tracker
+analytics: UA-83979019-1
+ 
+### exclude the instructions / write-up in the README.md
+exclude:
+- README.md
