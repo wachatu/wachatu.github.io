@@ -1,18 +1,9 @@
 ---
 layout: post
-title: Jekyll Theme - Project Gaia
+title: 如何制作个人博客
 category : Intro
 tags : [intro, tag1, tag2]
-stickie: true
 ---
-## Updated History
-
-- Mar 1st, 2017
-Change another toc plugin
-
-- Feb 28th, 2017
-Rebuild to include **Bootstrap 4-Alpha** and **JQuery 3**
-
 ## Desc
 
 This is a personal blog source code.
